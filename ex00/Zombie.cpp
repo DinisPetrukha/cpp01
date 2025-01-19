@@ -6,11 +6,15 @@
 /*   By: dpetrukh <dpetrukh@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/19 10:34:32 by dpetrukh          #+#    #+#             */
-/*   Updated: 2025/01/19 14:47:54 by dpetrukh         ###   ########.fr       */
+/*   Updated: 2025/01/19 15:52:25 by dpetrukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
+
+Zombie::Zombie()
+{
+}
 
 Zombie::Zombie( std::string give_name)
 {
