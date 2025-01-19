@@ -6,7 +6,7 @@
 /*   By: dpetrukh <dpetrukh@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/19 10:58:15 by dpetrukh          #+#    #+#             */
-/*   Updated: 2025/01/19 14:49:13 by dpetrukh         ###   ########.fr       */
+/*   Updated: 2025/01/19 15:18:46 by dpetrukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,9 @@
 
 int	main(void)
 {
-	Zombie stackZombie("StackZombie");
-	stackZombie.announce();
+	randomChump("StackZombie");
 
-	Zombie *heapZombie = new Zombie("HeapZombie");
+	Zombie *heapZombie = newZombie("HeapZombie");
 	heapZombie->announce();
 	delete heapZombie;
 }
