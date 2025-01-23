@@ -15,6 +15,11 @@
 
 HumanB::HumanB(std::string name) : name(name), weapon(NULL) {}
 
+HumanB::~HumanB( void )
+{
+
+}
+
 
 void	HumanB::setWeapon(Weapon &weapon)
 {

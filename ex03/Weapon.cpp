@@ -17,6 +17,11 @@ Weapon::Weapon(std::string set_type)
 	setType(set_type);
 }
 
+Weapon::~Weapon ( void )
+{
+
+}
+
 
 const	std::string &Weapon::getType() const
 {
